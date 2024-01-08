@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myntra Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bag.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <header class="headercontainer">
+    <div class="logo_container">
+      <a href="#"
+        ><img
+          src="images/myntra_logo.webp"
+          class="myntra_home"
+          alt="Myntra Logo"
+      /></a>
+    </div>
+    <div class="nav_bar">
+      <a href="#" class="men">Men</a>
+      <a href="#" class="women">Women</a>
+      <a href="#" class="kids">Kids</a>
+      <a href="#" class="home_living">Home & Living</a>
+      <a href="#" class="beauty">Beauty</a>
+      <a href="#" class="studio">Studio<sup>New</sup></a>
+    </div>
+    <div class="search_bar">
+      <span class="material-symbols-outlined search_icon"> search </span
+      ><input
+        placeholder="Search for products, brands and more"
+        class="search_input"
+      />
+    </div>
+    <div class="action_bar">
+      <div class="action_container">
+        <span class="material-symbols-outlined icon"> person </span>
+        <span class="action_name">Profile</span>
+      </div>
+      <div class="action_container">
+        <span class="material-symbols-outlined icon"> favorite </span>
+        <span class="action_name">Wishlist</span>
+      </div>
+      <div class="action_container">
+        <span class="material-symbols-outlined icon"> shopping_bag </span>
+        <span class="action_name">Bag</span>
+        <span class="bag-item-count">0</span>
+      </div>
+    </div>
+    </header>
+    <main>
+      <div class="bag-page">
+        <div class="bag-items-container">
+          </div>
+        <div class="bag-summary">
+        </div>
+
+      </div>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <div class="footer_coloumn">
+          <h3>Online Shopping</h3>
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+        <div class="footer_coloumn">
+          <h3>Customer Policies</h3>
+          <a href="#">Contact Us</a>
+          <a href="#">FAQ</a>
+          <a href="#">T&C</a>
+          <a href="#">Terms Of Use</a>
+          <a href="#">Track Orders</a>
+          <a href="#">Shipping</a>
+          <a href="#">Cancellation</a>
+          <a href="#">Returns</a>
+          <a href="#">Privacy policy</a>
+          <a href="#">Grievance Officer</a>
+        </div>
+        <div class="footer_coloumn">
+          <h3>Experience myntra app on mobile</h3>
+          <div class="footer_icon">
+            <img class="img_footer" src="imgs/gplay.png" alt="Google Play" />
+            <img class="img_footer" src="imgs/appstore.png" alt="App Store" />
+          </div>
+          <h3>Keep in touch</h3>
+          <div id="footer_social">
+            <a href="https://www.facebook.com/myntra"
+              ><img class="social_icon" src="imgs/fb.png" alt="Facebook Myntra"
+            /></a>
+            <a href="https://twitter.com/myntra"
+              ><img
+                class="social_icon"
+                src="imgs/twitter.png"
+                alt="Twitter Myntra"
+            /></a>
+            <a href="https://www.youtube.com/user/myntradotcom"
+              ><img
+                class="social_icon"
+                src="imgs/youtube.png"
+                style="height: 20px; width: 28px"
+                alt="Youtube Myntra"
+            /></a>
+            <a href="https://www.instagram.com/myntra/"
+              ><img
+                class="social_icon"
+                src="imgs/insta.png"
+                style="height: 20px; width: 22px"
+                alt="Instagram Myntra"
+            /></a>
+          </div>
+        </div>
+        <div class="footer_coloumn">
+          <div class="original_section">
+            <div class="original_label">
+              <img
+                style="height: 40px; width: 48px"
+                src="imgs/original.png"
+                alt=""
+              />
+            </div>
+            <div class="original_txt1">
+              <span class="original_txt">
+                <strong style="color: black">100% ORIGINAL</strong> guarantee
+                for all products at myntra.com
+              </span>
+            </div>
+          </div>
+
+          <div class="original_section">
+            <div class="original_label">
+              <img
+                style="height: 40px; width: 48px"
+                src="imgs/return.png"
+                alt=""
+              />
+            </div>
+            <div class="original_txt1">
+              <span class="original_txt">
+                <strong style="color: black">Return within 14days </strong> of
+                receiving your order
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="copyright">© 2023 www.myntra.com. All rights reserved.</div>
+    </footer>
+    <script src="data/items.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/bag.js"></script>
+</body>
+</html>
